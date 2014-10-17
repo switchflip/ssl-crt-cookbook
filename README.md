@@ -1,4 +1,4 @@
-# ssl-cert-cookbook
+# ssl-crt-cookbook
 
 This cookbook provides a definition to be used alongside [mikethemans'](https://github.com/miketheman) [nginx::source](https://github.com/miketheman/nginx/blob/master/recipes/source.rb) recipe to setup ssl_certifitcates.
 
@@ -14,7 +14,9 @@ deploy[:ssl_certificate_key]
 
 ## Usage
 
-### ssl-cert::default
+Include `depends 'ssl-crt'` in metadata.rb
+Include `cookbook `ssl-crt`, github: "switchflip/ssl-crt"`
+
 
 include ssl-cert in your any of your recipes.
 

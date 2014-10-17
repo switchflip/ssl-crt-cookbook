@@ -1,4 +1,4 @@
-name             'ssl-cert'
+name             'ssl-crt'
 maintainer       'Thomas Berry'
 maintainer_email 'thom.berry@gmail.com'
 license          'All rights reserved'
