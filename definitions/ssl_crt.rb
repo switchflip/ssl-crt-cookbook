@@ -27,5 +27,5 @@ define :ssl_crt, {
       variables :key => params[ext]
     end
   end
-
+  
 end
