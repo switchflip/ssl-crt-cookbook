@@ -1,6 +1,6 @@
 # ssl-cert-cookbook
 
-This cookbook provides a recipe to be used alongside [mikethemans'](https://github.com/miketheman) [nginx::source](https://github.com/miketheman/nginx/blob/master/recipes/source.rb) recipe.
+This cookbook provides a definition to be used alongside [mikethemans'](https://github.com/miketheman) [nginx::source](https://github.com/miketheman/nginx/blob/master/recipes/source.rb) recipe to setup ssl_certifitcates easily, without the need to reproducte code.
 
 ## Supported Platforms
 

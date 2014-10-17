@@ -1,6 +1,6 @@
 name             'ssl-cert'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Thomas Berry'
+maintainer_email 'thom.berry@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures ssl-cert'
 long_description 'Installs/Configures ssl-cert'
