@@ -14,15 +14,9 @@ Attributes are included in attributes/default.rb
 
 ### ssl-cert::default
 
-Include `ssl-cert` in your node's `run_list`:
+include ssl-cert::default in your any of your recipes.
 
-```json
-{
-  "run_list": [
-    "recipe[ssl-cert::default]"
-  ]
-}
-```
+Make sure to include in your metadata.rb and Berksfile
 
 ## License and Authors
 
