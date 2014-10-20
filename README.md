@@ -9,7 +9,8 @@ Ubuntu 14.04
 ## Usage
 
 Include `depends 'ssl-crt'` in metadata.rb
-Include `cookbook `ssl-crt`, github: "switchflip/ssl-crt"`
+and
+`cookbook "ssl-crt", github: "switchflip/ssl-crt"`
 
 
 include ssl-cert in your any of your recipes.
