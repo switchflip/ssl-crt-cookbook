@@ -1,4 +1,4 @@
-# ssl-crt-cookbook
+ # ssl-crt-cookbook
 
 This cookbook provides a definition to be used alongside [mikethemans'](https://github.com/miketheman) [nginx::source](https://github.com/miketheman/nginx/blob/master/recipes/source.rb) recipe or other nginx recipes to setup to setup ssl_certifitcates.
 

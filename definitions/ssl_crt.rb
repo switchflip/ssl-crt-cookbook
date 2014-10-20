@@ -21,6 +21,7 @@ define :ssl_crt, {
   [:key, :crt].each do |ext|
     template "#{base_file_path}.#{ext}" do
       source    'key.erb'
+      cookbook  'ssl-crt'
       owner     params[:owner]
       group     params[:group]
       mode      params[:mode]
