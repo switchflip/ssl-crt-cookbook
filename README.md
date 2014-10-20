@@ -16,8 +16,8 @@ include ssl-cert in your any of your recipes.
 
 # To use this definition add the following lines to your recipe.
 	ssl_crt "#{deploy_to}/shared/ssl/server.crt" do
-	  crt deploy[
------BEGIN CERTIFICATE-----
+```
+	  crt deploy[-----BEGIN CERTIFICATE-----
 MIIC5jCCAk+gAwIBAgIJAKWIzhM/CZdKMA0GCSqGSIb3DQEBBQUAMIGLMQ0wCwYD
 VQQDDAR0ZXN0MQswCQYDVQQGEwJVUzETMBEGA1UECAwKV2FzaGluZ3RvbjEQMA4G
 A1UEBwwHU2VhdHRsZTESMBAGA1UECgwJQ3JheSBJbmMuMRAwDgYDVQQLDAdDaGlw
@@ -34,10 +34,9 @@ BBYEFJ7Z7fg9pjdV6UGM3O8CPK4uJH9XMB8GA1UdIwQYMBaAFJ7Z7fg9pjdV6UGM
 hOU2GRmFzhckGmlZCb6mdfu94lw+uSdlvyy1PjoitfbL9TOqZGFOJADNqGFAEhX4
 Cmbi6VpkD2jbQeUxqYMJa5YdKpxPwed+A6XudbwWtcGiyIaxIDFao2FLY9Pjsks6
 s/wEzL7JKfwXIuo2f/mWDoLouCgCAatRMBE=
------END CERTIFICATE-----
-	  ]
-	  key deploy[
------BEGIN RSA PRIVATE KEY-----
+-----END CERTIFICATE-----]
+
+	  key deploy[-----BEGIN RSA PRIVATE KEY-----
 MIICXQIBAAKBgQC/95JUuiSPgbRBXzO69aTL4yHQ5dyBtzCsK07EE+91DG438570
 ijsT/TDKMG/JhedghgkpdOA/qXi1bPYKtSi/VZJZUbkcwKdhhLmTdU44PDtmnmzk
 Ox2PiDhjLgs296qaW3zTXEFAXa1WKW8KuS5meU7Is5kE6y2aWIee8JTM6wIDAQAB
@@ -51,6 +50,6 @@ DvV9aGdNBAjYbTLjSOTeDdMSwe8o3QiMgcEdLYvIhhdkld0gWpVxw9BQ1okCQHui
 AWq1QFEsoexAQjbzyXmzTSsCJOllb7sYFxtwzu3W+loLIUWwZDVhTmTYnWkoQ6lm
 SlY9ZOEnzggB8hqZ4sUCQQDBlz7k599CBtSozxetbmFcIiLlgASD02y4jkum60Jp
 0BRlaGuAwEVctsKBwmAeNS/RYNbS7wJk2fZmlXfP2TmX
------END RSA PRIVATE KEY-----
-	  ]
+-----END RSA PRIVATE KEY-----]
 	end
+```	
