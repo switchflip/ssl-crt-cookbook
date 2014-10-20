@@ -17,7 +17,7 @@ include ssl-cert in your any of your recipes.
 # To use this definition add the following lines to your recipe.
 
 ```
-ssl_crt "#{deploy_to}/shared/ssl/server.crt" do
+ssl_crt "sample_application/shared/ssl/server.crt" do
 
 	  crt deploy[-----BEGIN CERTIFICATE-----
 MIIC5jCCAk+gAwIBAgIJAKWIzhM/CZdKMA0GCSqGSIb3DQEBBQUAMIGLMQ0wCwYD
