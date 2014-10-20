@@ -15,8 +15,10 @@ Include `cookbook `ssl-crt`, github: "switchflip/ssl-crt"`
 include ssl-cert in your any of your recipes.
 
 # To use this definition add the following lines to your recipe.
-	ssl_crt "#{deploy_to}/shared/ssl/server.crt" do
+
 ```
+ssl_crt "#{deploy_to}/shared/ssl/server.crt" do
+
 	  crt deploy[-----BEGIN CERTIFICATE-----
 MIIC5jCCAk+gAwIBAgIJAKWIzhM/CZdKMA0GCSqGSIb3DQEBBQUAMIGLMQ0wCwYD
 VQQDDAR0ZXN0MQswCQYDVQQGEwJVUzETMBEGA1UECAwKV2FzaGluZ3RvbjEQMA4G
@@ -51,5 +53,5 @@ AWq1QFEsoexAQjbzyXmzTSsCJOllb7sYFxtwzu3W+loLIUWwZDVhTmTYnWkoQ6lm
 SlY9ZOEnzggB8hqZ4sUCQQDBlz7k599CBtSozxetbmFcIiLlgASD02y4jkum60Jp
 0BRlaGuAwEVctsKBwmAeNS/RYNbS7wJk2fZmlXfP2TmX
 -----END RSA PRIVATE KEY-----]
-	end
+end
 ```	
